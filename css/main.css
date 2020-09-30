@@ -1,0 +1,148 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4 {
+    color: black;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+h4 {
+    font-size: 12px;
+}
+
+p {
+    font-size: 14px;
+    line-height: 21px;
+    padding: 0 30x;
+}
+
+header {
+    height: 110px;
+    border-bottom: 3px solid #77a466;
+    margin: 0 auto;
+}
+header h1 {
+    font-size: 30px;
+    padding: 38px 0;
+    margin: 0;
+    float: left;
+}
+
+header h1 span {
+    color: #77a466;
+}
+header nav {
+    float: right;
+    padding: 46px 0;
+}
+header nav ul {
+    margin: 0;
+    padding: 0;
+}   
+
+header nav ul li { 
+    font-size: 14px;  
+    font-weight: 700;
+    display: inline;
+    text-transform: uppercase;
+    padding: 0 10px;
+}
+
+header nav ul li a {    
+    text-decoration: none;
+    color: #77a466;    
+}
+
+.top, .bottom {
+    margin: 0 auto;
+    clear: both;
+}
+
+.top-image {
+    height: auto;
+    float: left;
+}
+
+.top-image img {
+    border-bottom: 3px solid #77a466;
+}
+
+.top-title {
+    height: auto;
+    float: left;
+}
+.top-title  h3{
+    font-size: 18px;
+    color: #77a466;
+    text-align: left;
+    padding: 5px 0;
+}
+
+.top-title p {
+    padding: 0;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.section-one, .section-two, .section-three {
+    width: 358px;
+    height: auto;
+    float: left;
+    border-top: 1px solid #dedbdc;
+}
+
+.section-one h4 {
+    padding: 10px 0;
+}
+
+.section-two {
+    border-left: 1px solid #dedbdc;
+    border-right: 1px solid #dedbdc;
+}
+
+.section-two, .section-three {
+    padding: 10px 30px;
+}
+
+.section-one ul {
+    list-style: none;
+    padding: 0;
+}
+
+.section-one ul li {
+    padding: 10px 0;
+    color: #77a466;
+}
+
+.section-two p {
+    font-size: 16px;
+    line-height: 21px;
+}
+
+address {
+    font-size: 16px;
+    line-height: 24px;
+    font-style: normal;
+}
+
+footer {
+    height: 50px;
+    border-top: 1px solid #dedbdc;
+    margin: 0 auto;
+    clear: both;
+    text-align: center;
+    font-size: 16px;
+}
+
+footer span {
+    color: #77a466;
+    font-size: 16px;
+    text-transform: lowercase;
+    font-family: 'galada', cursive;
+}
